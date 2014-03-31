@@ -32,7 +32,25 @@ public class main {
 		System.out.println("INORDEN");
 		ab.inorden();
 		
+		System.out.println();
+		System.out.println("Buscar");
+		ab.buscar(5);
+		ab.buscar(10);
 		
+		System.out.println();
+		System.out.println("Contar");
+		System.out.println(ab.contar());
 		
+		/*System.out.println();
+		System.out.println("Suma");
+		System.out.println(ab.suma());*/
+		
+		System.out.println();
+		System.out.println("Altura");
+		System.out.println(ab.altura());
+		
+		System.out.println();
+		System.out.println("Maximo");
+		System.out.println(ab.maximo());
 	}
 }
